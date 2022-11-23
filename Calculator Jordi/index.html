@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <h1> La millor Calculadora que veuras mai</h1>
+    <div class="calculator">
+        <input class="keyboard" onkeypress="return blockSpecialChar(event)" id="kb" type="text" pattern="[0-9]">
+        <div class="row">
+            <button onclick="writeChar('7')"> 7 </button>
+            <button onclick="writeChar('8')"> 8 </button>
+            <button onclick="writeChar('9')"> 9 </button>
+            <button class="bluebutton" onclick="deleteChar()"> DEL </button>
+            <button class="bluebutton" onclick="clearInput()"> AC </button>
+        </div>
+        <div class="row">
+            <button onclick="writeChar('4')"> 4 </button>
+            <button onclick="writeChar('5')"> 5 </button>
+            <button onclick="writeChar('6')"> 6 </button>
+            <button onclick="writeChar('*')"> × </button>
+            <button onclick="writeChar('/')"> ÷ </button>
+       </div>
+       <div class="row">
+        <button onclick="writeChar('1')"> 1 </button>
+        <button onclick="writeChar('2')"> 2 </button>
+        <button onclick="writeChar('3')"> 3 </button>
+        <button onclick="writeChar('+')"> + </button>
+        <button onclick="writeChar('-')"> - </button>
+   </div>
+        <div class="row">
+            <button onclick="writeChar('0')"> 0 </button>
+            <button onclick="writeChar('.')"> . </button>
+            <button class="bluebutton" onclick="writeAns()"> Ans </button>
+            <button class="longbutton" onclick="calculateAwnser()"> = </button>
+        </div>
+    <script src="main.js"></script>
+    </div>
+</body>
+</html>

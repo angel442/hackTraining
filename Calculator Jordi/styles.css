@@ -1,0 +1,96 @@
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 500;
+}
+
+body {
+    background-color: rgb(43, 43, 43);
+}
+
+.calculator {
+    margin: auto;
+    width: 347px;
+    border: 3x rgb(62, 62, 62);
+    background-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.row {
+    margin-bottom: 3px;
+    margin-top: 3px;
+    align-content: center;
+}
+
+button {
+    width: 60px;
+    height: 40px;
+    margin: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    text-justify: center;
+}
+
+button {
+    width: 60px;
+    height: 40px;
+    margin: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    text-justify: center;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+.bluebutton {
+    width: 60px;
+    height: 40px;
+    margin: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    text-justify: center;
+    background-color: rgb(52, 81, 211);
+    border: 2px solid black;
+    color: white;
+    border-radius: 5px;
+}
+.bluebutton:hover{
+    background-color: rgb(52, 73, 170);
+}
+.bluebutton:active{
+    background-color: rgb(41, 60, 143);
+}
+
+.longbutton{
+    width: 129px;
+    height: 40px;
+    margin: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    text-justify: center;
+    background-color: rgb(52, 81, 211);
+    border: 2px solid black;
+    color: white;
+    border-radius: 5px;
+}
+.longbutton:hover{
+    background-color: rgb(52, 73, 170);
+}
+.longbutton:active{
+    background-color: rgb(41, 60, 143);
+}
+.keyboard{
+    width: 328px;
+    height: 40px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 20px;
+    padding-left: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
